@@ -1,0 +1,24 @@
+1409190024075	Delete element
+1409190337221	Delete element
+1409190834460	Delete element
+1409190836442	Delete element
+1409191934318	Rename local variable 'titleList'
+1409192166551	Rename type 'MovieIDPair'
+1409192172325	Rename field 'id'
+1409192193479	Rename local variable 'moviePairList'
+1409192614895	Rename method 'getId'
+1409192620204	Rename method 'setId'
+1409194175864	Delete element
+1409272928415	Rename type 'GetUpcomingMoviesTask'
+1409274353864	Extract method 'updateAutoCompleteText'
+1409276011977	Rename field 'progressDialog'
+1409277879171	Rename local variable 'outPut'
+1409278187110	Extract method 'retrieveListFromAPI'
+1409278967986	Rename local variable 'i'
+1409278971542	Rename local variable 'ij'
+1409327585013	Delete element
+1409327608648	Delete element
+1409327992916	Delete element
+1409328292450	Extract constant 'URL_DATE_FORMAT'
+1409328409201	Extract constant 'MONTH_LOOK_AHEAD'
+1409328474979	Rename method 'getEndDate'

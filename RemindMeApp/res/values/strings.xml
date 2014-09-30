@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">RemindMeBETA</string>
+    <string name="app_name">Release Date Reminder</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_string">Enter Title</string>
+    <string name="action_remove_ads">Remove Ads</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_search">Search</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <string name="title_string">Enter Movie Title</string>
     <string name="remind_me">Remind Me</string>
-    <string name="tryToRemind_Yes">Yes</string>
-    <string name="tryToRemind_No">No</string>
-    <string name="tryRemindAlertMessage">Sorry, we could not find that movie. Would you like us to 
-        add a reminder for you once we find it? (We will attempt to find the movie periodically in the background)</string>
-
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="tryRemindAlertMessage">Sorry, we could not find that movie. You may need to reload movie data if you haven\'t in a while.</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="quick_tab_title">Quick Reminder</string>
+    <string name="browse_tab_title">Browse</string>
+    <string name="contact">Contact</string>
+    <string name="title_section3">Section 3</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="lookAheadMonths_string">lookAheadMonths</string>
+    <string name="lookAheadMonths_title">Look ahead months</string>
+    <string name="lookAheadMonths_summary">Load the next %1$d months of movies</string>
+    <string name="calendar_picker_key_string">calendarPicker</string>
+    <string name="calendar_picker_title">Calendar</string>
+    <string name="calendar_picker_summary">Calendar to use for quick reminders</string>
+    <string name="reminderDays_string">reminderDays</string>
+    <string name="reminderDays_title">Reminder days</string>
+    <string name="reminderDays_summary">Remind me %1$d days before the release date</string>
+    <string name="reminderDays_summary_one">Remind me %1$d day before the release date</string>
+    <string name="no_calendar_message">We\'re sorry, we did not find any Google Calendars which you have permission to edit. Please create one to be able to save reminders from this app.</string>
+    <string name="no_internet_message">We could not download upcoming data because there was no connection to the internet. Please connect and try again.</string>
+    <string name="reminder_type_choice_message">What type of reminder would you like to set?</string>
+    <string name="about_title_string">Release Date Reminder</string>
+    <string name="about_message_string">This product uses the TMDb API but is not endorsed or certified by TMDb. \n\nAny questions or inquiries can be directed to <![CDATA[<a href="mailto:nyelitodev@gmail.com?Subject=ReleaseDateReminder" target="_top">nyelitodev@gmail.com</a>]]>\n</string>
+    <string name="help_quick">Simply start typing the movie name, then select it from the dropdown, and hit "Remind Me". \n\nThis will set a reminder on your selected calendar for the number of days you have selected in settings before the release date. \n\nIf the movie is not in the list, try loading more months from the settings.\n\n</string>
+    <string name="help_browse">Browse for movies from the upcoming months you have loaded. \n\nClick on a movie to either set a quick reminder or a customizable reminder.\n</string>
+    <string name="help_contact">With any questions or problems, please contact the developer here: nyelitodev@gmail.com</string>
+    <string name="removed_ads_toast">You have already removed ads, if they are still showing, please contact the developer</string>
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="quick_ad_unit_id">ca-app-pub-2265109544899486/1743718051</string>
+    <string name="browse_ad_unit_id">ca-app-pub-2265109544899486/5468593654</string>
 </resources>
